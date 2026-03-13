@@ -83,3 +83,6 @@ make all
 ```
 
 This will generate the a shared object for each C file within the src folders.
+
+>[!caution]
+>You might need to change the makefile to match your own compiler of choice. For that you only need to change the CC parameter within the make file with the command your compiler runs. For example gcc or clang.
